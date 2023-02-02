@@ -16,15 +16,15 @@
 	font-family: "Highload";
 	src: url("../font/HighlandGothicFLF.woff") format("woff2") , url("../font/HighlandGothicFLF.woff") format("woff");
 	font-weight: 500;
-	font: normal;
+	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Ayuma2yk";
 	src: url("../font/Ayuma2yk.woff2") format("woff2");
 	font-weight: 500;
-	ont: normal;
-font-display: swap;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
