@@ -1,0 +1,88 @@
+@import url(reset.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
+@font-face {
+	font-family: "Kriknes";
+	src: url("../font/KrinkesRegularPERSONAL.woff2") format("woff2"), url("../font/KrinkesRegularPERSONAL.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;	
+}
+@font-face {
+	font-family: "Highload";
+	src: url("../font/HighlandGothicFLF.woff") format("woff2") , url("../font/HighlandGothicFLF.woff") format("woff");
+	font-weight: 500;
+	font: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Ayuma2yk";
+	src: url("../font/Ayuma2yk.woff2") format("woff2");
+	font-weight: 500;
+	ont: normal;
+font-display: swap;
+}
+
+@font-face {
+	font-family: "Janda";
+	src: url("../font/JandaAppleCobbler.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;	
+}
+
+h1{
+	font-family: "Janda";
+	text-align: left; 
+	color: aqua;
+}
+
+h2{
+	font-family: "Kriknes" ,"italic";
+	font-size: 60px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: underline;
+	color: chocolate;
+	text-shadow: 2px 2px 5px #845;
+	}
+
+
+.title .box-title a{
+	font-family: 'Abril Fatface', cursive;
+	color: brown;
+	text-decoration: underline;
+	word-spacing: 10px;
+	line-height: 2;
+}
+
+.box-article .box-one p{
+font-family: 'Acme', sans-serif;
+text-align: center;
+font-size: 20px;
+line-height: 1.8;
+
+}
+.box-article .box-two p{
+	font-family: "Highload";
+	text-indent: 20px;
+	line-height: 1.5;
+}
+
+.box-article .box-three p{
+	font-family: "Ayuma2yk";
+	text-indent: 20px;
+	font-size: 25px;
+	line-height: 1.7;
+
+}
+.box-article .box-four p{
+	font-family: 'Abril Fatface', cursive;
+	text-indent: 20px;
+	font-size: 30px;
+	line-height: 1.5;
+}
