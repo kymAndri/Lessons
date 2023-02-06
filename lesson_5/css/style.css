@@ -1,0 +1,110 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+
+body{
+	width: auto;
+	height: auto;
+	padding: 10px;
+}
+
+.top .text{
+	width: 816px;
+	height: auto;
+	margin: auto;
+	
+}
+
+.top .text h3{
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 20px;
+	max-width: 100%;
+	max-height: 100%;
+	font-weight: 700;
+	font-family: Poppins;
+	font-size: 25px;
+	line-height: 40px;
+	letter-spacing: 0em;
+	text-align: left;
+	
+}
+.top .text p{
+	margin-bottom: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	
+}
+
+.midle .desert{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 20px;
+
+}
+.midle .second-text-part{
+	width: 816px;
+	height: auto;
+	margin: auto;
+	margin-bottom: 20px;
+	
+}
+
+.midle .second-text-part h3{
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 41px;
+	font-weight: 700;
+	font-family: Poppins;
+	font-size: 25px;
+	line-height: 40px;
+	letter-spacing: 0em;
+	text-align: left;
+
+
+}
+.midle .second-text-part p{
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.midle .images{
+	width: auto;
+	height: auto;
+	margin: auto;
+	font-size: 0;
+}
+
+.midle .images .beach{
+	width: 50%;
+	padding: 10px 0px 10px 5px;
+	
+}
+.midle .images .boat{
+	width: 50%;
+	padding: 10px 5px 10px 0px;
+}
+.finish {
+	width: 816px;
+	height: 175px;
+	margin: auto;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	
+}
+
+
