@@ -1,0 +1,90 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+.top{
+	width: 816px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+	padding-top: 15px;
+}
+
+.top .title h3{
+	max-width: 495px;
+	margin-bottom: 70px ;
+	font-family: Poppins;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.8;
+	
+}
+
+.top .text p{ 
+	max-width: 816px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.6;
+}
+.midle{
+	max-width: 100%;
+	padding: 10px;
+}
+.midle .dessert img{
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+
+.h-article-box{
+	max-width: 816px;
+	margin: 0 auto;
+}
+
+.midle .title-second{
+	max-width: 605px;
+	margin-bottom: 70px ;
+	font-family: Poppins;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.8;
+}
+
+.midle .second-text-part p{
+	max-width: 816px;
+	margin-bottom: 40px;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.6;
+}
+
+.images{
+	max-width: 1240px;
+	margin-bottom: 80px;
+}
+
+.images .wrap .boat {
+	width: 50%;
+	margin: 0 auto;
+	
+}
+.images .wrap .beach {
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+
+
+.finish .text-last p{
+	max-width: 816px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.6;
+}
