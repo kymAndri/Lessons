@@ -40,7 +40,7 @@
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
-	margin-bottom: 70px;
+	padding-bottom: 70px;
 
 }
 .h-article-box{
@@ -59,7 +59,7 @@
 .h-article-box .second-text-part p{
 	max-width: 816px;
 	margin: 0 auto;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
 	font-family: Poppins;
 	font-size: 14px;
 	font-weight: 300;
@@ -100,4 +100,3 @@
 	font-weight: 300;
 	line-height: 1.6;
 }
-
