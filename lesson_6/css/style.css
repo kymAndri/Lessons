@@ -1,0 +1,89 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,300,700&display=swap);
+
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
+.article {
+	max-width: 100%;
+	font-family:"Poppins",sans-serif;
+	color:#6C757D;
+	font-size: 14px;
+	font-weight: 300;
+	
+}
+.article__text-box {
+	max-width: 814px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+.article p{
+	line-height: 1.6;
+	margin-bottom: 30px;
+}
+.article__title {
+	max-width: 605px;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.8;
+	margin-bottom: 40px;
+}
+
+
+.article__text-box .swalov{
+	margin-bottom: 100px;
+}
+
+
+.image {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+.article__images {
+	max-width: 100%;
+	font-size: 0;
+	margin-bottom: 100px;
+}
+.article__images .article-image1 {
+	max-width: 100%;
+	border-radius: 5px;
+	margin-right: 15px ;
+}
+.article__images .article-image2 {
+	max-width: 100%;
+	border-radius:  5px;
+	margin-left: 15px;
+}
+
+.pict{
+	max-width: 100%;
+	margin-bottom: 120px;
+}
+.pict img{
+	width: 100%;
+}
+
+
+.button{
+	text-align: center;
+	max-width: 100%;
+	padding:50px 0px;
+	
+}
+.button .touch{
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	max-width: 100% ;
+	padding: 15px;
+	border: solid 4px royalblue;
+	border-radius: 10px;
+	background-color: chartreuse;
+	box-shadow: inset 5px 15px 5px 5px rgb(10, 151, 161);
+	opacity: 0.8;
+}
