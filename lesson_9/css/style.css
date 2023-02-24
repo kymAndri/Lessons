@@ -1,0 +1,59 @@
+@import url("reset.css");
+
+
+[class*="__container"]{
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.box-icons{
+	background-color: darkgray;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+.element {
+	text-align: center;
+}
+.element img{
+	margin: 20px;
+	
+}
+h2{
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 40px;
+}
+p{
+	text-align: justify;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.icon .box{
+	text-align: center;
+}
+
+.box-design{
+	background-color: rgb(226, 142, 142);
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.box-design .background{
+	background-image: url("../images/Rectangle10.webp");
+	background-size: cover;
+	padding: 300px 0px ;
+}
+
+.photo-design{
+text-align: center;
+background: rgb(126,126,139);
+background: linear-gradient(163deg, rgba(126,126,139,0.7553615196078431) 0%, rgba(189,189,191,0.8337928921568627) 47%, rgba(0,212,255,1) 100%);
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.photo img{
+	border-radius: 20px;
+	margin: 5px;	
+}
