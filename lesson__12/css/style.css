@@ -118,7 +118,7 @@
 }
 .element-backface-visability__back{
 	transform: rotateY(-180deg);
-	background-color: linear-gradient(163deg, rgba(126,126,139,0.7553615196078431) 0%, rgba(189,191,191,1) 45%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(163deg, rgba(126,126,139,0.7553615196078431) 0%, rgba(189,191,191,1) 45%, rgba(0,212,255,1) 100%);
 }
 .element-backface-visability:hover .element-backface-visability__body{
 	transform: rotateY(180deg);
