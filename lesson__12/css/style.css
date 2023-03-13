@@ -67,7 +67,7 @@
 	background-color: rgb(126,126,139,0.2);
 	transition: all 0.1s ease 0s;
 	perspective-origin: center;
-	perspeсtive: 600px;
+	perspective: 600px;
 	transform-style: preserve-3d;
 }
 .column-2__element:not(:last-child){
@@ -118,7 +118,7 @@
 }
 .element-backface-visability__back{
 	transform: rotateY(-180deg);
-	background-color: linear-gradient(163deg, rgba(126,126,139,0.7553615196078431) 0%, rgba(189,191,191,1) 45%, rgba(0,212,255,1) 100%);;
+	background-color: linear-gradient(163deg, rgba(126,126,139,0.7553615196078431) 0%, rgba(189,191,191,1) 45%, rgba(0,212,255,1) 100%);
 }
 .element-backface-visability:hover .element-backface-visability__body{
 	transform: rotateY(180deg);
