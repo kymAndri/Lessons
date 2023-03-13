@@ -1,0 +1,285 @@
+
+
+[class*="__container"]{
+	width: 1300px;
+	margin: 0 auto;
+}
+.paint{
+	background-color: dimgray;
+}
+.paint__sky {
+	border: solid 2px;
+	background: #804e9c; 
+	background: -webkit-linear-gradient(to left top, #804e9c, #3c6574); 
+	background: linear-gradient(to left top, #804e9c, #163c49); 
+	height: 500px;
+}
+.sky__moon{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: darkgoldenrod;
+	position: relative;
+	top: 20px;
+	left: 50px;
+}
+.sky__moon:hover{
+	box-shadow: 0px 0px 12px 3px wheat;
+	transform: scale(0.9);
+}
+
+.sky__star{
+	display: inline-block;
+}
+.star__pict {
+	height: 10px;
+	width: 10px;
+	display: inline-block;
+}
+
+
+.star__one {
+	position: relative;
+	top: 40px;
+	left: 430px;
+	display: inline-block;
+}
+
+.star__two {
+	position: relative;
+	top: 0px;
+	left: 540px;
+	display: inline-block;
+}
+.star__thre {
+	position: relative;
+	top: 110px;
+	left: 450px;
+	display: inline-block;
+}
+.star__four {
+	position: relative;
+	top: 70px;
+	left: 530px;
+	display: inline-block;
+}
+.star__five {
+	position: relative;
+	top: -70px;
+	left: 650px;
+	display: inline-block;
+}
+.star__six {
+	position: relative;
+	top: -60px;
+	left: 550px;
+	display: inline-block;
+}
+.paint__road {
+	background-color: rgba(46, 37, 37, 0.739);
+	border: solid 2px;
+	max-height: 300px;
+	padding: 30px;
+	position: relative;
+}
+
+.tank__sirene {
+	height: 20px;
+	width: 15px;
+	border-radius: 15px 15px 0 0 ;
+	border: solid;
+	position: absolute;
+	top: -23px;
+	left: 220px;
+	background-color: rgba(255, 0, 0, 0.577);
+}
+.tank__sirene:hover{
+	background-color: yellow;
+	box-shadow: 0px 0px 0px 6px blue;
+	transition: all 100ms;
+
+}
+.tank__headlight{
+	height: 15px;
+	width:15px;
+	border-radius: 50%;
+	background-color: gold;
+	position: absolute;
+	bottom: 15px;
+	left:285px;
+}
+.tank__light{
+	width: 0px; 
+      height: 35px; 
+      border-left: 56px solid transparent;
+      border-right: 300px solid transparent;
+	border-top: 5px;
+	border-radius: 70%;
+	background-color: yellow;
+	position: absolute;
+	bottom: -15px;
+	left: 290px;
+	rotate: 5deg;
+	display:none;
+}
+.truck__tank:hover .tank__light{
+	display: block;
+}
+
+.tank__pipe {
+	height: 5px;
+	width: 50px;
+	border-radius: 0px 3px 3px 0 ;
+	border: solid;
+	position: absolute;
+	top: -10px;
+	left: 250px;
+	background-color: grey;
+}
+.tank__pipe:hover{
+	transform-origin: 0px 30px;
+	transform: rotate(-40deg) scale(1.5);
+	transition: all 2s;
+}
+.truck__leader{
+	height: 20px;
+	width: 200px;
+	border: 4px solid grey;
+	position: absolute;
+	top: -30px;
+	left: -30px;
+	padding-right: 20px;
+}
+.truck__leader:hover{
+	transform-origin: 0px 30px;
+	transform: rotate(-40deg) scale(2.5);
+	transition: all 2s;
+}
+.leader__step{
+	height: 20px;
+	width:5px ;
+	margin-left: 20px;
+	
+	background-color: grey;
+	display: inline-block;
+
+}
+.tank__line{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	right: 0%;
+	bottom: 40%;
+	background-color: aliceblue;
+	text-align: center;
+}
+.truck__tank {
+	display: inline-block;
+	height: 100px;
+	width: 300px;
+	border: solid;
+	position: relative;
+	top: 0%;
+	left: 10%;
+	border-radius: 20px 40px 15px 15px;
+	background-color: red;
+}
+.tank__window{
+	width: 50px;
+	height: 30px;
+	border:solid;
+	border-radius: 3px 40px 5px 3px;
+	position: absolute;
+	top: 5px;
+	left: 248px;
+	background-color: cadetblue;
+	z-index: 1;
+}
+.tank__driver{
+	width: 40px;
+	height: 40px;
+	z-index: 0;
+	position: absolute;
+	top: -5px;
+	left: 250px;
+}
+.truck__tank:hover .tank__window{
+	transform: translate(0px,30px);
+	opacity: 0;
+	transition: all 2s;
+	z-index: 0;
+}
+.tank__wheals-front {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: solid;
+	position: absolute;
+	bottom: -30px;
+	left:220px;
+	background-color: black;
+	border: grey dashed 4px;
+}
+.tank__wheals-rear {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: solid;
+	position: absolute;
+	bottom: -30px;
+	left:20px;
+	background-color: black;
+	background-color: black;
+	border: grey dashed 4px;
+}
+.road__truck{
+	display: inline-block;
+}
+
+.wheals-rear__centre-front {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: rgb(212, 207, 207);
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.wheals-front__centre-rear{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: rgb(212, 207, 207);
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.build {
+	border: solid 2px red;
+	background-color: rgb(111, 60, 60);
+	height: 600px;
+	width: 350px;
+	position: relative;
+	top: -550px;
+	left: 770px;
+	padding:30px;
+}
+.build__column{
+	display: inline-block;
+}
+.build__column:not(:last-child){
+	margin-right: 180px;
+}
+.build__windows {
+	height: 100px;
+	width: 50px;
+	margin-bottom: 15px;
+	border: solid yellow;
+	background-color: yellow;
+	margin-right: 30px;
+	position: relative;
+	top: 20px;
+	background: rgb(237,0,0);
+	background: linear-gradient(351deg, rgba(237,0,0,1) 0%, rgba(227,151,4,0.7469581582633054) 77%);
+	left:20px;
+}
