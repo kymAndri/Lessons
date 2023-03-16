@@ -6,7 +6,7 @@
 }
 .paint{
 	background: #804e9c; 
-	background: -webkit-linear-gradient(to left top, #804e9c, #3c6574); 
+	background: linear-gradient(to left top, #804e9c, #3c6574); 
 	background: linear-gradient(to left top, #804e9c, #163c49); 
 }
 .paint__sky {
@@ -326,7 +326,7 @@
 	
 	40%{transform: translate(700px,0px)}
 	
-	80%{}
+	
 	100%{transform: translate(700px,0px)}
 }
 @keyframes reverse-trak{
@@ -348,7 +348,7 @@
 	0%{transform: translate(0,0);}
 	25%{transform: translate(300px,100px) rotate(-5deg);
 	}
-	50%{transform: translate(550,100px) rotate(25deg)}
+	50%{transform: translate(550px,100px) rotate(25deg)}
 	75%{transform: translate(800px,50px)}
 	100%{transform: translate(1400px,90px)}
 }
@@ -366,7 +366,7 @@
 }
 @keyframes ppo-hit{
 	0%{
-	transform: translate(0px,0px) rotate(90);}
+	transform: translate(0px,0px) rotate(90deg);}
 	33%{
 		transform: translate(0px,-200px);
 	}
