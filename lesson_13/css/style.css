@@ -348,7 +348,7 @@
 	0%{transform: translate(0,0);}
 	25%{transform: translate(300px,100px) rotate(-5deg);
 	}
-	50%{transform: translate(550px,100px) rotate(25deg)}
+	50%{transform: translate(550px,100px) rotate(5deg)}
 	75%{transform: translate(800px,50px)}
 	100%{transform: translate(1400px,90px)}
 }
@@ -366,7 +366,7 @@
 }
 @keyframes ppo-hit{
 	0%{
-	transform: translate(0px,0px) rotate(90deg);}
+	transform: translate(0px,0px) rotate(-90deg);}
 	33%{
 		transform: translate(0px,-200px);
 	}
