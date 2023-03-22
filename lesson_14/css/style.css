@@ -12,16 +12,13 @@
 body{
 	font-family: 'Poppins';
 }
-.page {
-}
+
 [class*="__container"] {
 	max-width: 1270px; /*1240+15+15*/
 	margin: 0 auto;
 	padding: 0px 15px;
 }
-.page__header {
-	
-}
+
 .header-item {
 	display: flex;
 	flex-wrap: wrap;
@@ -29,8 +26,6 @@ body{
 	gap: 20px;
 	align-items: center;
 	padding: 20px 0px;
-	margin-bottom:30px;
-
 }
 .header-item__title {
 	flex:0 1 200px;
@@ -154,7 +149,6 @@ margin: 0px -15px 45px -15px ;
 .product__author:hover{
 	text-decoration: underline;
 	color: #495057;
-	margin-bottom: 30px;
 }
 
 
