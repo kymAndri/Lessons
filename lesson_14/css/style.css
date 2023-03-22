@@ -33,7 +33,7 @@ body{
 
 }
 .header-item__title {
-	flex:0 0 200px;
+	flex:0 1 200px;
 }
 .header-item__list {
 	display: flex;
@@ -67,7 +67,7 @@ margin: 0px -15px 45px -15px ;
 }
 .main-card__product {
 	padding: 0px 15px;
-	flex:0 0 33.333%;
+	flex:0 1 33.333%;
 	display: flex;
 }
 
