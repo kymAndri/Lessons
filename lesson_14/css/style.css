@@ -20,7 +20,7 @@ body{
 	padding: 0px 15px;
 }
 .page__header {
-	margin-bottom: 30px;
+	
 }
 .header-item {
 	display: flex;
@@ -29,6 +29,7 @@ body{
 	gap: 20px;
 	align-items: center;
 	padding: 20px 0px;
+	margin-bottom:30px;
 
 }
 .header-item__title {
@@ -153,12 +154,10 @@ margin: 0px -15px 45px -15px ;
 .product__author:hover{
 	text-decoration: underline;
 	color: #495057;
-}
-
-.page__button {
 	margin-bottom: 30px;
-
 }
+
+
 .button {
 	display: flex;
 	justify-content: center;
