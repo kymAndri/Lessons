@@ -1,0 +1,470 @@
+@import url("../css/reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,500,600,700&display=swap");
+body{
+	font-family: 'Inter';
+
+
+}
+select{
+	font-family: 'Inter';
+}
+label{
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.8;
+	color: #637381;
+}
+
+[class*="__container"]{
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.page__shipping,
+.page__form{
+	display: flex;
+	flex-direction: column;
+	gap:40px;
+}
+.form__billing-details{
+	display: flex;
+	flex-direction: column;
+}
+.billing-details__title{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.2px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+.billing-details__area{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -15px;
+}
+
+.area__form{
+	padding: 0px 15px;
+	flex: 0 1 50%;
+	margin-bottom: 20px;
+
+}
+.area__input{
+	width: 100%;
+	padding: 10px 5px;
+	border-radius: 5px;
+	border: 1px solid #E7E7E7;
+}
+.form-aditional{
+	flex: 0 1 100%;
+}
+.form-aditional__information{
+	padding: 15px 15px;
+	width: 100%;
+	resize: vertical;
+	border-radius: 5px;
+	border: 1px solid #E7E7E7;
+}
+.check-box__button:not(:last-child){
+	margin-bottom: 20px;
+}
+.check-box__button{
+	margin-left: 20px;
+	padding-left:15px ;
+}
+.form__coupon{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 40px;
+	border-bottom: #828282 solid;
+}
+.coupon__title {
+margin-bottom: 30px;
+}
+.coupon__input {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.coupon__code {
+	flex:0 1 45%;
+}
+.coupon__area{
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #E7E7E7;
+}
+.coupon__button {
+	padding: 12px;
+	border-radius: 5px;
+	background-color: black;
+	text-align: center;
+}
+.coupon__button a{
+	color: #E7E7E7;
+}
+
+
+/*----------------------------------*/
+
+
+
+.shipping__registration-block {
+	border-bottom: #C4C4C4 solid 1px;
+}
+.registration-block {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.registration-block__title {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 68px;
+	padding-top: 90px;
+}
+.registration-block__form {
+	display: flex;
+	gap: 10px;
+	
+}
+.registration-block__label {
+	flex: 0 1 20%;
+}
+.registration-block__input{
+	flex:0 1 80%;
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #E7E7E7;
+}
+.registration-block h4{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #828282;
+	margin-bottom: 15px;
+}
+.registration-block__button {
+	display: flex;
+	flex-wrap:wrap;
+	gap: 10px;
+	padding-bottom:35px ;
+}
+
+.button__login {
+	flex:0 1 15%;
+	padding: 15px 0px;
+	background-color: black;
+	color: #E7E7E7;
+	text-align: center;
+}
+.button__lost-password {
+	margin-left: 15px;
+	align-self: center;
+	color: #0F6DB1;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4;
+
+}
+.button__sent-form{
+	padding: 10px 20px;
+	background-color: #1c71d8;
+	color: #E7E7E7;
+	border-radius: 5px;
+	align-self: center;
+}
+
+.page__information {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.information__form {
+	display: flex;
+	gap: 15px;
+}
+.information__label  {
+	flex:0 1 20%;
+}
+
+.information__input{
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #E7E7E7;
+}
+
+.information__form:nth-child(1) {
+	padding-top: 20px;
+}
+
+.method h2{
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 2.9;
+	border-bottom: #C4C4C4 solid;
+}
+.method__variant {
+	display: flex;
+	justify-content:space-between;
+	align-self: center;
+	width: 60%;
+	
+	
+}
+.method__price{
+	padding-left: 20px;
+}
+
+.method__navigate-button {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 30px;
+
+}
+.navigate-button__next {
+	display: flex;
+	align-items: center;
+	padding: 15px 40px;
+	background-color: #000;
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: center;
+	color: #FFFFFF;
+	overflow: hidden;
+}
+.navigate-button__next:hover .navigate-button__link{
+	transition: all 0.3s;
+	font-size: 14px;
+	color: #ddee23;
+}
+
+.navigate-button__back {
+	display: flex;
+	align-items: center;
+	font-family: 'Oswald';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #828282;
+}
+
+
+.method__fixed,
+.method__rate {
+	display: flex;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #3F3F3F;
+	align-self: center;
+
+}
+.method__variant-line-top{
+	border-top: solid  #C4C4C4 ;
+	padding-bottom: 50px;
+} 
+
+.method__radio{
+	position:relative;
+	top: 0;
+	left: 16px;
+}
+.method__radio-input{
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+
+.method__radio-input:focus-visible+ .method__radio-label{
+	outline: 2px solid #000;
+	border-radius: 5px;
+}
+.method__radio-input:checked+.method__radio-label::before{
+	background-color: #feed06;
+	background-size: 5px 5px;
+	outline: 1px solid #1c71d8;
+	box-shadow: #1c71d8 0px 0px 3px 2px;
+}
+
+.method__radio-label {
+	cursor: pointer;
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 5px;
+}
+.method__radio-label::before {
+	content: " ";
+	position: absolute;
+	top: 9px;
+	left: -15px;
+	flex: 0 0 10px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: solid 1px rgb(36, 43, 233);
+	background-color: #ffffff;
+}
+
+
+
+
+.check-box__button {
+	position: relative;
+}
+.check-box__label{
+	cursor: pointer;
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 10px;
+}
+.check-box__input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+.check-box__label::before {
+	content: " ";
+	position: absolute;
+	top: 7px;
+	left: -15px;
+	flex: 0 0 10px;
+	width: 15px;
+	height: 15px;
+	border-radius: 2px;
+	border: solid 1px rgb(36, 43, 233);
+	
+}
+.check-box__input:focus-visible + .check-box__label{
+	outline: 2px solid #1c56c1;
+	border-radius: 5px;
+}
+.check-box__input:checked + .check-box__label::before{
+	background-color: #bd2727;
+	content: "  ";
+	background: url('../img/27406.svg') center no-repeat;
+	background-size: 10px 10px;
+	position: absolute;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+
+}
+.button__login,
+.button__lost-password,
+.coupon__button a{
+	transition: all 0.3s;
+}
+
+.coupon__button a:hover{
+	transition: all 0.4s;
+	font-size: 17px;
+	font-weight: 900;
+	color: #ddee23;
+}
+
+.button__lost-password:hover{
+	text-decoration: underline;
+	color: rgb(36, 43, 233,0.6);
+	transition: all 0.3s;
+}
+
+.button__login:hover{
+	transition: all 0.4s;
+	font-size: 16px;
+	font-weight: 900;
+	color: #ddee23;
+}
+.button__sent-form{
+	transition: all 0.3s;
+}
+.button__sent-form:hover{
+	transform: scale(1.05);
+	transition: all 0.4s;
+	font-size: 16px;
+	font-weight: 500;
+	color: #ddee23;
+}
+
+
+@media (max-width: 1270px) {
+	[class*="__container"] {
+		max-width: 960px;
+	}
+}
+
+@media(max-width:991.98px){
+	[class*="__container"] {
+		max-width: 740px;
+	}
+	.coupon__input{
+		justify-content: space-around;
+	
+	}
+	.registration-block__button{
+		justify-content: space-around;
+	}
+
+}
+
+@media(max-width: 652px){
+	.billing-details__area{
+		flex-direction: column;
+	}
+	.form__coupon{
+		justify-content: space-around;
+	}
+	.registration-block__form{
+		flex-direction: column;
+	}
+	.coupon__input,
+	.registration-block__button{
+		flex-direction: column;
+		margin: 0px 10px;
+	}
+	.information__form{
+		flex-direction: column;
+	}
+	.method__navigate-button{
+		margin: 0px 30px;
+	}
+	
+}
+@media(max-width: 377.98px){
+	.registration-block__button{
+		flex-direction: column;
+		margin: 0px 30px;
+	}
+}
