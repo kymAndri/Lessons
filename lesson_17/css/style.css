@@ -278,7 +278,7 @@
 	}
 	.presentation-box__image {
 		flex: 0 1 100%;
-	};
+	}
 }
 @media (max-width:614px) {
 	.room__sub-title-text{
