@@ -407,12 +407,6 @@ transition: all 0.3s;
 		}
 
 	
-		.menu__list{
-			display: flex;
-			flex-direction: column;
-			row-gap: 30px;
-			align-items:right;
-		}
 		.header__logo,
 		.menu__link{
 			font-size: 22px;
