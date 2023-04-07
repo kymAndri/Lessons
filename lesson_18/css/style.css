@@ -247,7 +247,7 @@ pointer-events: auto;
 		justify-content: center;
 		align-items: center;
 		min-height: 500px;
-		background: url("../img/bg1.png")no-repeat;
+		background: url("../img/bg1.png")center no-repeat;
 	}
 	.main__text {
 		text-align: center;
