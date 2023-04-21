@@ -1,0 +1,88 @@
+@import url("../css/reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap");
+
+body{
+	font-family: 'Inter';
+	font-style: normal;
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+[class*="container"]{
+	max-width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.box-images__wrap {
+	display: grid;
+	grid-template-columns: repeat(2 ,1fr);
+	gap: 25px;
+}
+.box-images__column1 {
+	grid-row: span 2;
+	position: relative;
+
+}
+.column1__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.column1__img img{
+	width: 100%;
+	
+}
+.column1__text {
+	position: relative;
+	max-width: 400px;
+	z-index: 1;
+}
+
+.text__wrap{
+	padding-top: 76px;
+	padding-left: 40px;
+}
+.box-images__column2 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.column2 {
+}
+.column2__img {
+	position: absolute
+}
+.column2__img  img{
+	width: 100%;
+}
+.column2__text-wide {
+	position: relative;
+	z-index: 1;
+}
+.box-images__column3 {
+	position: relative;
+	top: 190px;
+	left: 0;
+}
+.column3 {
+}
+.column3__img {
+	position: absolute;
+}
+.column3__text-wide {
+	position: relative;
+	z-index: 1;
+}
