@@ -1069,9 +1069,9 @@ body {
   color: #212529;
 }
 .guide__text h3 a {
-  -webkit-transition: all 0.3;
-  -o-transition: all 0.3;
-  transition: all 0.3;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .guide__text h3 a:hover {
   opacity: 0.7;
