@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
-:root --titleColor {
-  color: #F8F9FA;
-}
+
 
 *,
 *::before,
@@ -887,8 +885,8 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: 100%;
-     object-fit: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1077,9 +1075,9 @@ body {
 }
 .guide__text h3 a:hover {
   opacity: 0.7;
-  -webkit-transition: all 0.3;
-  -o-transition: all 0.3;
-  transition: all 0.3;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .guide__text p {
   font-weight: 300;
